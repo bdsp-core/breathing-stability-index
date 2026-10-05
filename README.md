@@ -16,6 +16,14 @@ alongside the analysis code for:
  · [Paper analysis guide](paper/README.md)
  · [Scientific definitions](docs/scientific-contract.md)
 
+![Breathing Stability Index graphical abstract](docs/figures/bsi-graphical-abstract.webp)
+
+### Full-night example
+
+![Example full-night Breathing Stability Index trace](docs/figures/bsi-full-night-trace.webp)
+
+*Example full-night respiratory effort signal with time-resolved BSI shown above the trace.*
+
 ## Installation
 
 Python 3.10 or newer is required; Python 3.11 is the tested environment.
@@ -120,6 +128,12 @@ The preserved analysis inputs include access-controlled clinical and community
 cohort data. See [the reproduction guide](paper/README.md) for the required
 tables, commands, and current verification limits. Historical feature naming
 and scaling details are documented in the scientific contract.
+
+## Published associations
+
+![Breathing stability predicts cognition and diseases](docs/figures/bsi-cognition-disease.webp)
+
+*Paper figure summarizing cognition and disease prediction using breathing-stability features.*
 
 ## License
 
