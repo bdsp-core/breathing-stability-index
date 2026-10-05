@@ -2,12 +2,12 @@ cff-version: 1.2.0
 message: "Please cite the SLEEP paper when using this software."
 type: software
 title: Breathing Stability Index
-version: 0.1.0
+version: 0.1.1
 authors:
   - family-names: Ganglberger
     given-names: Wolfgang
 repository-code: "https://github.com/bdsp-core/breathing-stability-index"
-license: CC-BY-NC-4.0
+license-url: "https://github.com/bdsp-core/breathing-stability-index/blob/main/LICENSE"
 preferred-citation:
   type: article
   title: "Dynamic instability of breathing during sleep predicts cognition, disease, and mortality"

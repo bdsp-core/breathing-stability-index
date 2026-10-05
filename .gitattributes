@@ -3,3 +3,4 @@
 paper/scripts/** -whitespace
 src/breathing_stability_index/_kernels.py -whitespace
 LICENSE -whitespace
+LICENSES/** -whitespace

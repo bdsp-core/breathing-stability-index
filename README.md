@@ -123,6 +123,8 @@ and scaling details are documented in the scientific contract.
 
 ## License
 
-Code: **CC BY-NC 4.0**, matching the development repository; see [LICENSE](LICENSE).
-The published PDF retains its journal/author copyright and is included with the
-author's permission; the software license does not relicense the paper.
+**Noncommercial scientific research only. Commercial use is prohibited.**
+The [Breathing Stability Index Noncommercial Research License](LICENSE) permits
+independent, academic, nonprofit, and government scientific research. It grants
+no permission for for-profit use, commercial R&D, product evaluation, paid
+services, or commercial deployment, even when the code itself is free.
