@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the SLEEP paper when using this software."
+type: software
+title: Breathing Stability Index
+version: 0.1.0
+authors:
+  - family-names: Ganglberger
+    given-names: Wolfgang
+repository-code: "https://github.com/bdsp-core/breathing-stability-index"
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: article
+  title: "Dynamic instability of breathing during sleep predicts cognition, disease, and mortality"
+  authors:
+    - family-names: Ganglberger
+      given-names: Wolfgang
+    - family-names: Sun
+      given-names: Haoqi
+    - family-names: Quinn
+      given-names: Thomas M
+    - family-names: Westover
+      given-names: M Brandon
+    - family-names: Thomas
+      given-names: Robert J
+  journal: SLEEP
+  year: 2026
+  doi: 10.1093/sleep/zsag212
+  start: zsag212

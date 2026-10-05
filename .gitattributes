@@ -1,0 +1,5 @@
+*.pdf binary
+# Preserve historical source formatting and its recorded byte hashes.
+paper/scripts/** -whitespace
+src/breathing_stability_index/_kernels.py -whitespace
+LICENSE -whitespace

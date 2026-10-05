@@ -1,0 +1,15 @@
+# Validation environment, Python 3.11.14; use with pip install -c requirements-tested.txt -e .[paper,plot,dev]
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+mne==1.11.0
+h5py==3.15.1
+statsmodels==0.14.6
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.7.2
+tqdm==4.66.5
+filelock==3.20.1
+pytest==9.0.2
+build==1.6.1
+edfio==0.4.10

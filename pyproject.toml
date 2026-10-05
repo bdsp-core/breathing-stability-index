@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breathing-stability-index"
+version = "0.1.0"
+description = "Breathing Stability Index from respiratory effort signals, with SLEEP 2026 analysis code"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "CC-BY-NC-4.0"
+license-files = ["LICENSE"]
+authors = [{name = "Wolfgang Ganglberger"}]
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.11,<2", "pandas>=2.1,<3",
+  "mne>=1.7,<2", "h5py>=3.9,<4", "statsmodels>=0.14,<1",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8,<4"]
+paper = ["matplotlib>=3.8,<4", "seaborn>=0.13,<1", "scikit-learn>=1.4,<2", "tqdm>=4.66", "filelock>=3.13"]
+comparators = ["neurokit2>=0.2", "pyedflib>=0.1.39", "xmltodict>=0.13"]
+dev = ["pytest>=8", "build>=1.2", "edfio>=0.4"]
+
+[project.scripts]
+breathing-stability-index = "breathing_stability_index.cli:main"
+
+[project.urls]
+Repository = "https://github.com/bdsp-core/breathing-stability-index"
+Article = "https://doi.org/10.1093/sleep/zsag212"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

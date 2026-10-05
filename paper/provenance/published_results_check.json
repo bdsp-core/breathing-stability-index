@@ -1,0 +1,32 @@
+{
+  "verification_type": "existing aggregate source outputs compared with published paper; models not rerun",
+  "records": [
+    {
+      "source_results_path": "REVISION/mortality_bsi_score_cv_all_study_type_original_style_50fold_v1/bsi_score_cv_results.csv",
+      "feature_set": "original_style_quantile_windows",
+      "cohort": "I0002",
+      "model_name": "m4_age_sex_comparators",
+      "hr_per_sd": 1.10237106979412,
+      "ci_lower": 1.0213097722988629,
+      "ci_upper": 1.189866197778264
+    },
+    {
+      "source_results_path": "REVISION/mortality_bsi_score_cv_all_study_type_original_style_50fold_v1/bsi_score_cv_results.csv",
+      "feature_set": "original_style_quantile_windows",
+      "cohort": "mros",
+      "model_name": "m4_age_sex_comparators",
+      "hr_per_sd": 1.015961683404179,
+      "ci_lower": 0.9705557729104504,
+      "ci_upper": 1.0634918373111242
+    },
+    {
+      "source_results_path": "REVISION/mortality_bsi_score_cv_all_study_type_original_style_50fold_s0001_probe_v1/bsi_score_cv_results.csv",
+      "feature_set": "original_style_quantile_windows",
+      "cohort": "S0001",
+      "model_name": "m4_age_sex_comparators",
+      "hr_per_sd": 1.3766614694155537,
+      "ci_lower": 1.2276812545745506,
+      "ci_upper": 1.5437205661580022
+    }
+  ]
+}

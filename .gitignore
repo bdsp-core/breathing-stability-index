@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+output/
+outputs/
+data/
+workspaces/
+*.h5
+*.hdf5
+*.edf
+*.npz
+*.csv
+!examples/manifest.csv
+!paper/provenance/analysis_inventory.csv

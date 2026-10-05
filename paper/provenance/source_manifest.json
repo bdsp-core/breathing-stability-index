@@ -1,0 +1,273 @@
+{
+  "captured_on": "2026-10-05",
+  "development_git_head": "a9dc20768a31663073a1246ac1f97e3fd2d9aa6d",
+  "source_includes_uncommitted_revision_work": true,
+  "kernel_functions": [
+    "envelope",
+    "create_env",
+    "remove_outliers",
+    "fill_outliers",
+    "is_outlier",
+    "get_peaks_troughs_2",
+    "preprocess_effort_signals",
+    "clip_z_normalize",
+    "build_belt_mode_traces",
+    "compute_stability",
+    "stability_summary_features",
+    "stability_episodes_features"
+  ],
+  "files": [
+    {
+      "source_relative_path": "breathing_stability.py",
+      "release_path": "paper/scripts/breathing_stability.py",
+      "sha256": "a3bd2738a17fdcf7261f7948de6a8fc462a5a08d5dad03af6eeb880366374b74",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "self_similarity.py",
+      "release_path": "paper/scripts/self_similarity.py",
+      "sha256": "068ec338234ba971f618479e06bf0ac42b34a40ced77f661ef6057e0c7420059",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_final_paper_master.py",
+      "release_path": "paper/scripts/REVISION/build_final_paper_master.py",
+      "sha256": "b5d8a37cdcfe6abed48ce4558488d611fa3be6a5c30b6da8b3c0fb24b6f8c708",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_master_analysis_table.py",
+      "release_path": "paper/scripts/REVISION/build_master_analysis_table.py",
+      "sha256": "dd233eaca0e02400f68cd1e0bbf4f31a502f412d4c05623e2d0aee52ef60e208",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_mortality_followup_table.py",
+      "release_path": "paper/scripts/REVISION/build_mortality_followup_table.py",
+      "sha256": "20854a592732554baa7dc94a19e3e0173d3b221497c93f5821a42034e95d5a24",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_cognition_disease_figure_v3.py",
+      "release_path": "paper/scripts/REVISION/build_revision_cognition_disease_figure_v3.py",
+      "sha256": "faf95e82568bfb18d5cbd514f5030c7d0d351151d39032956dcd298ca735a7c5",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_figures.py",
+      "release_path": "paper/scripts/REVISION/build_revision_figures.py",
+      "sha256": "900a6f3db8a8906628c58598e13a7ff265488141cd1cc313538a42d0fe811682",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_mortality_manuscript_table_v1.py",
+      "release_path": "paper/scripts/REVISION/build_revision_mortality_manuscript_table_v1.py",
+      "sha256": "766114254f43c4dfa7fb5e266f395c10b3b14cd86fef6a9846655b26443d692a",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_mortality_summary_figure_v1.py",
+      "release_path": "paper/scripts/REVISION/build_revision_mortality_summary_figure_v1.py",
+      "sha256": "2bc5c67acaf6900c3badfd54db68a68509a705f1902248a19eb1c79aa755a589",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_mortality_summary_figure_v2.py",
+      "release_path": "paper/scripts/REVISION/build_revision_mortality_summary_figure_v2.py",
+      "sha256": "518b2cba4223b8b3ab74aa7b6a5990aea232c2336459412b803512c536ecda47",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_mortality_summary_figure_v3.py",
+      "release_path": "paper/scripts/REVISION/build_revision_mortality_summary_figure_v3.py",
+      "sha256": "9573ab1c759378166de42d9dbc6c538ef084a0cb773d7b43e4f1b35027f8475e",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_revision_tables_v2.py",
+      "release_path": "paper/scripts/REVISION/build_revision_tables_v2.py",
+      "sha256": "2f5edd2429d4cb9e533837f93ea6c5dd8e74a4c061fd4eed3f99ae2dfa5fd0be",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_sleep_general_revision_features.py",
+      "release_path": "paper/scripts/REVISION/build_sleep_general_revision_features.py",
+      "sha256": "f99c6663e29c88d2d11c177f505d9a9b5b1dfdf3d3b8a426078568357638d4e7",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_stage_ahi_anova_mixed_v1.py",
+      "release_path": "paper/scripts/REVISION/build_stage_ahi_anova_mixed_v1.py",
+      "sha256": "2159402ff2b1a46950c97d11cf694886f8ce735e8540c156e1bff6bddc84df87",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/build_window_sensitivity_v1.py",
+      "release_path": "paper/scripts/REVISION/build_window_sensitivity_v1.py",
+      "sha256": "4c4f5745bf3f0f0198db2555c7d11158571e4f76897cdfd8c9112a60d6acbca3",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/enrich_primary_revision_master.py",
+      "release_path": "paper/scripts/REVISION/enrich_primary_revision_master.py",
+      "sha256": "c9d3ef27c245dbc06bf5b2bd9e9df179c6272efed8da357c804ec3aec3d98dfa",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/identify_paradox_breathing_examples_v1.py",
+      "release_path": "paper/scripts/REVISION/identify_paradox_breathing_examples_v1.py",
+      "sha256": "adbb6d1e570cfa04b2f5bab4a6b0dd0410906e033ae164aba76fc4cf8a7e8587",
+      "adaptation": "Removed two author-specific recording identifiers from default example exclusions; supply authorized --exclude-fileid values privately to reproduce that selection.",
+      "source_sha256": "08b456e73b6b36b0f94b256654133d0f3103102ef5ea9857f3ccbbb5182bd221"
+    },
+    {
+      "source_relative_path": "REVISION/merge_body_position_into_primary_master.py",
+      "release_path": "paper/scripts/REVISION/merge_body_position_into_primary_master.py",
+      "sha256": "ad49d69478aa06f15b699bcfdb9a98a1c952bbd34a7e5f6b16a2916bff71e658",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/merge_bsi_ss_into_primary_master.py",
+      "release_path": "paper/scripts/REVISION/merge_bsi_ss_into_primary_master.py",
+      "sha256": "1314e599f70cce7ff54a4a69515bb8cbd30afa17b50bb8e3e7c02a82cb783185",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/merge_sleep_general_into_primary_master.py",
+      "release_path": "paper/scripts/REVISION/merge_sleep_general_into_primary_master.py",
+      "sha256": "66e298faaa92c02651e5868276e360f0104c5b05299e758fbc6cda379f0734c0",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/merge_study_type_classifications.py",
+      "release_path": "paper/scripts/REVISION/merge_study_type_classifications.py",
+      "sha256": "b5ebd6fe416421d7ac8de94eb646348a941ed23ab08499909ebf0d777fdf7dbf",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/merge_survival_into_primary_master.py",
+      "release_path": "paper/scripts/REVISION/merge_survival_into_primary_master.py",
+      "sha256": "bbc7b7cbde5daa297611e4db45ead533b2fe5a67142574d07f814996ca9b21b1",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_overlap_sensitivity_v1.py",
+      "release_path": "paper/scripts/REVISION/run_overlap_sensitivity_v1.py",
+      "sha256": "6870429afa234f0ab22d577b83a4ed70dcff13d2062e12dac08c63d4b549091d",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_cognition_disease_target_bsi_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_cognition_disease_target_bsi_v1.py",
+      "sha256": "a16e2e7234907e5319130c848630d2bc919a28a91e38bbf9b1da600bcc3803fa",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_mortality_bsi_score_cv_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_mortality_bsi_score_cv_v1.py",
+      "sha256": "c021894e26f57b2b08352d5453d360993df725859c1f4145c0122ed3555a87ca",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_mortality_cohort_models_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_mortality_cohort_models_v1.py",
+      "sha256": "b89f70bfdbca8a34a5789f475eba860597ef33aeb1b136388766b9c8ccda0d50",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_mortality_comparator_all_study_type_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_mortality_comparator_all_study_type_v1.py",
+      "sha256": "27e75879b929a298f12b2b726b3e778f91139c88faf8fe4c40bfb95fe3b12b32",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_mortality_v2.py",
+      "release_path": "paper/scripts/REVISION/run_revision_mortality_v2.py",
+      "sha256": "561d6b12d01c9fac6e3409bd1b38b484f55e267d5ffb261b08ae71c93958431f",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_osa_csa_ahi_strata_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_osa_csa_ahi_strata_v1.py",
+      "sha256": "4427166838d9951f4c54b9f697f7cf0dee5f4a337390b3fa8e2105f8f9bc72d6",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_physiology_models.py",
+      "release_path": "paper/scripts/REVISION/run_revision_physiology_models.py",
+      "sha256": "fda4c31b3dd097b8f9c6b140e5ce33985a1c0e7b05356d1451ff4f333460572a",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_posture_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_posture_v1.py",
+      "sha256": "63054ce909cdf607e427d3f5d5528eaa51b1a0ba87e8958fbf0139b1a6c9f042",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_raw_bsi_sensitivity_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_raw_bsi_sensitivity_v1.py",
+      "sha256": "cee06bd48b7e0c411008d64d51917ee9b7a12da34017faee2637dcf59468ca1b",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_rem_nrem_outcomes_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_rem_nrem_outcomes_v1.py",
+      "sha256": "d28d5dbd3b4813c1d42f1f6af6ff539cf206505ddcd8e0ca1f856f7036b72c06",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/run_revision_study_type_sensitivity_v1.py",
+      "release_path": "paper/scripts/REVISION/run_revision_study_type_sensitivity_v1.py",
+      "sha256": "3aa947622a9210f97f0a1c777328037e9eda5db0d11874b6b622e4b30d0273e2",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "REVISION/sleep_general_revision_features.py",
+      "release_path": "paper/scripts/REVISION/sleep_general_revision_features.py",
+      "sha256": "0152c5b6307b2091250bd6c96bc578157c5077d91f737e7e83905b8d3be94ca0",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "user-supplied published PDF",
+      "release_path": "paper/Ganglberger_2026_SLEEP_Breathing_Stability_Index.pdf",
+      "sha256": "9d2c06c787f007a187ece67f9a9328f67bb47499dea5b488aee5bf7d7ed9c8c9"
+    },
+    {
+      "source_relative_path": "hypoxic_burden/ODI.py",
+      "release_path": "paper/scripts/hypoxic_burden/ODI.py",
+      "sha256": "d352fb97bd0d96b9fc78cc6e0281ea1ac34250c508fa613849b1ea8fda55ffc9",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "hypoxic_burden/Reader/Base/AnnotationReader.py",
+      "release_path": "paper/scripts/hypoxic_burden/Reader/Base/AnnotationReader.py",
+      "sha256": "12334df9f83f4d0240fe46ae92c59458bb1c443b803aca20d424f76db17f8294",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "hypoxic_burden/Reader/Base/EDFReader.py",
+      "release_path": "paper/scripts/hypoxic_burden/Reader/Base/EDFReader.py",
+      "sha256": "2c498320d4a3c92aecc67b9b352456d375beea91c839e707bc5b3e0f862d04ec",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "hypoxic_burden/Reader/Base/__init__.py",
+      "release_path": "paper/scripts/hypoxic_burden/Reader/Base/__init__.py",
+      "sha256": "9676c1715a9c93dccc1115cd2336b98d93bac09f1eaa1807c6c95034e65e494e",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "hypoxic_burden/compute_hypoxic_burden.py",
+      "release_path": "paper/scripts/hypoxic_burden/compute_hypoxic_burden.py",
+      "sha256": "4db40a1c63f8baf5358b103ce43f165c05690c01b45ccac9931f3f078c5c7b95",
+      "adaptation": "none; exact local working-tree snapshot"
+    },
+    {
+      "source_relative_path": "hypoxic_burden_desat.py",
+      "release_path": "paper/scripts/hypoxic_burden_desat.py",
+      "sha256": "44d25b2490bd4630624a720ce50f4b0f4bfbbe66f8fc98ec2524b3963e9a8a2a",
+      "adaptation": "none; exact local working-tree snapshot"
+    }
+  ]
+}
